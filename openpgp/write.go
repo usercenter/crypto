@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/packet"
-	"golang.org/x/crypto/openpgp/s2k"
+	"github.com/usercenter/cryptoopenpgp/armor"
+	"github.com/usercenter/cryptoopenpgp/errors"
+	"github.com/usercenter/cryptoopenpgp/packet"
+	"github.com/usercenter/cryptoopenpgp/s2k"
 )
 
 // DetachSign signs message with the private key from signer (which must
